@@ -1,121 +1,207 @@
-# WEDE POE PART2
-# SWEET RISE BAKERY
+# Sweet Rise Bakery
+
+## Student Information
+
+Student Name: Reamogetswe Mogano
+
+Student Number: ST10522049
+
+Subject: Web Development
+
+Project: Sweet Rise Bakery Website
+
+---
 
 ## Project Overview
-Sweet Rise Bakery is a small bakery website created for the Web Development (Introduction) POE. The website gives visitors information about the bakery, its products, how to make an enquiry and how to contact the bakery.
 
-## Target Audience
-The target audience includes local customers, families, people looking for baked products and customers who want to ask about cakes or other bakery products.
+Sweet Rise Bakery is a small bakery website created as part of the
+Web Development POE. The website provides information about the bakery,
+its products, contact information and an enquiry form.
+
+The website is designed to be simple and easy for customers to use.
+
+---
 
 ## Website Goals and Objectives
-- Give visitors clear information about Sweet Rise Bakery.
-- Show the main bakery products.
-- Make it easy for visitors to send an enquiry.
-- Provide contact details and a map.
-- Create a website that is easy to use on desktop, tablet and mobile screens.
 
-## Main Features
-- Home page with an introduction and call-to-action button.
-- About Us page with the bakery story and values.
-- Products page with product images and descriptions.
-- Enquiry page with a customer enquiry form.
-- Contact page with contact details, business hours, a map and contact form.
-- One external CSS stylesheet used across all pages.
-- Responsive design using flexible layouts and media queries.
-- CSS pseudo-classes for links, buttons and cards.
+The main goals of the website are:
 
-## Website Structure
-The website contains:
-- index.html
-- about.html
-- products.html
-- enquiry.html
-- contact.html
-- css/style.css
-- js/script.js
-- images/
-- sitemap.txt
-- README.md
-- CHANGELOG.md
+- To provide information about Sweet Rise Bakery.
+- To display the bakery products.
+- To make it easy for customers to contact the bakery.
+- To allow customers to send enquiries.
+- To provide a simple and easy-to-use navigation system.
+- To create a website that works on desktop, tablet and mobile devices.
 
-## Part 1 Corrections Made
-The Part 1 feedback identified three important missing items: sitemap, changelog and commits. These were addressed for Part 2.
+---
 
-Other corrections made to the Part 1 HTML include:
-- Removed the duplicate `</header>` and duplicate `<main>` from the Home page.
-- Added an external stylesheet link to all pages for Part 2.
-- Improved the semantic HTML structure.
-- Added a contact form to the Contact page because the brief requires more than a location and also a contact form.
-- Added clearer form labels and required fields.
-- Kept the navigation consistent across all pages.
-- Added comments to explain the main code sections.
-- Added the sitemap and changelog documents.
+## Target Audience
 
-## Part 2 Design
-### Colour Scheme
-The design uses warm bakery colours such as blue, cream and purple. The colours were selected to give the website a warm and welcoming bakery feel.
+The target audience includes:
 
-### Typography
-Arial, Helvetica and sans-serif are used. Different font sizes and weights are used for headings, body text, navigation and buttons.
+- Customers looking for baked products.
+- People looking for cakes and pastries.
+- People who want to make an enquiry.
+- Families and individuals looking for bakery products.
 
-### Layout
-CSS Grid and Flexbox are used to create the main layouts. The layouts change at tablet and mobile breakpoints.
+---
 
-### Responsive Design
-The CSS contains tablet and mobile media queries. Images use flexible widths so they can shrink with the screen.
+## Website Pages
 
-### Interactive Styling
-Pseudo-classes such as `:hover`, `:focus` and `:active` are used on navigation links, buttons and product cards.
+The website contains five main pages:
 
-## Testing Evidence
-Before submission, test the website in a browser at:
-1. Desktop size.
-2. Tablet size.
-3. Mobile size.
+1. Home
+2. About Us
+3. Products
+4. Enquiry
+5. Contact
 
-Add screenshots below after testing:
+---
 
-### Desktop Screenshot
-[Insert desktop screenshot here]
+## Key Features
 
-### Tablet Screenshot
-[Insert tablet screenshot here]
+The website includes:
 
-### Mobile Screenshot
-[Insert mobile screenshot here]
+- Navigation menu.
+- Bakery logo.
+- Images of bakery products.
+- Product information.
+- Enquiry form.
+- Contact information.
+- Business locations.
+- Google Maps.
+- Responsive CSS design.
 
-Also check:
-- All navigation links open the correct pages.
-- Images load correctly.
-- Forms show required-field validation.
-- The layout does not create horizontal scrolling on mobile.
-- The map displays correctly.
-- Buttons and links respond when the mouse is placed over them.
-- Keyboard focus is visible on form controls and links.
+---
+
+## Part 1 Corrections
+
+The following changes were made after reviewing the Part 1 feedback:
+
+- Corrected duplicate HTML tags on the Home page.
+- Improved the HTML page structure.
+- Added a sitemap.
+- Added a changelog.
+- Improved the contact page.
+- Added more than one bakery location.
+- Added a contact form.
+- Improved the organisation of the HTML code.
+- Kept the five required web pages.
+
+---
+
+## Part 2 CSS Changes
+
+Part 2 includes:
+
+- External CSS stylesheet.
+- CSS reset.
+- Typography styling.
+- Desktop layout.
+- CSS Grid.
+- Flexbox.
+- Colours and decoration.
+- Hover effects.
+- Focus effects.
+- Active effects.
+- Tablet media query.
+- Mobile media query.
+- Responsive navigation.
+- Responsive images.
+- Responsive forms.
+
+---
+
+## Responsive Design
+
+The website was designed for:
+
+- Desktop screens.
+- Tablet screens.
+- Mobile screens.
+
+The website uses CSS media queries to change the layout for smaller
+screen sizes.
+
+---
+
+## Sitemap
+
+Home
+│
+├── About Us
+├── Products
+├── Enquiry
+└── Contact
+
+---
+
+## Testing
+
+The website will be tested on:
+
+- Desktop screen.
+- Tablet screen.
+- Mobile screen.
+
+The navigation links will also be tested to make sure they work
+correctly between all five pages.
+
+---
 
 ## Image Sources
-The project uses images downloaded from Pexels. Pexels states that its photos and videos can be used for free, including for websites, and attribution is not required, although credit is appreciated.
 
-Where image credits were collected during Part 1, the photographer/source details should be kept with the submission documentation.
+Images used in the website were sourced from Pexels.
 
-## GitHub
-The project should be pushed to the private GitHub repository supplied for the module. Descriptive commits should be made after each major stage.
+The images are used according to the Pexels licence.
 
-Suggested commit messages:
-1. `Fix Part 1 HTML structure and add contact form`
-2. `Add sitemap and README documentation`
-3. `Add external CSS styling for desktop`
-4. `Add responsive tablet and mobile layouts`
-5. `Test website and update changelog`
+---
+
+## Changelog
+
+### Part 1 Corrections
+
+- Corrected duplicate HTML tags on the Home page.
+- Improved page structure.
+- Added sitemap.
+- Added changelog.
+- Added contact form.
+- Added a second bakery location.
+
+### Part 2
+
+- Added external CSS stylesheet.
+- Added base website styling.
+- Added typography styles.
+- Added desktop layout styling.
+- Added product card layout.
+- Added hover, focus and active effects.
+- Added tablet responsive styling.
+- Added mobile responsive styling.
+- Added responsive navigation.
+- Added responsive images.
+- Added responsive form styling.
+
+---
 
 ## References
-MDN Web Docs (2026) *HTML: A good basis for accessibility*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML (Accessed: 17 September 2026).
 
-MDN Web Docs (2026) *Responsive web design*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design (Accessed: 17 September 2026).
+MDN Web Docs (2026) HTML: A good basis for accessibility. Available at:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML
+(Accessed: 18 September 2026).
 
-MDN Web Docs (2026) *CSS media queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries (Accessed: 17 September 2026).
+MDN Web Docs (2026) Responsive web design. Available at:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
+(Accessed: 18 September 2026).
 
-GitHub Docs (2026) *Commits*. Available at: https://docs.github.com/en/pull-requests/reference/commits (Accessed: 17 September 2026).
+MDN Web Docs (2026) CSS media queries. Available at:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries
+(Accessed: 18 September 2026).
 
-Pexels (2026) *Free Stock Photo & Video License*. Available at: https://www.pexels.com/license/ (Accessed: 17 September 2026).
+GitHub Docs (2026) Commits. Available at:
+https://docs.github.com/en/pull-requests/reference/commits
+(Accessed: 18 September 2026).
 
+Pexels (2026) Pexels License. Available at:
+https://www.pexels.com/license/
+(Accessed: 18 September 2026).
