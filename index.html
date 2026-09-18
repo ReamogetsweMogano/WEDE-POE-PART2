@@ -6,7 +6,7 @@
     <title>Sweet Rise Bakery</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="home-page">
     <!-- Website header and navigation -->
     <header class="site-header">
         <div class="container">
@@ -32,34 +32,71 @@
     </header>
     <!-- Main home page content -->
     <main id="main-content">
+        <div class="home-ribbon" role="note">
+            <span>Today from the oven</span>
+            <strong>Warm rolls, buttery pastries and a little sweetness</strong>
+            <span class="ribbon-mark">✿</span>
+        </div>
         <section class="hero">
             <div class="hero-image">
                 <img src="images/Home/home.jpg" alt="Freshly baked bread and bakery products">
+                <span class="image-note">Baked fresh<br>every morning</span>
             </div>
             <div class="hero-text">
-                <h2>Welcome to Sweet Rise Bakery</h2>
+                <p class="eyebrow">Small batch · Big heart</p>
+                <h2>A little sweetness for your everyday.</h2>
                 <p>Fresh baking and delicious flavours come together at Sweet Rise Bakery. We prepare a variety of baked treats for everyday moments, celebrations and special occasions.</p>
-                <p>From freshly baked bread and soft rolls to cakes and sweet pastries, we aim to give our customers something tasty to enjoy every day.</p>
-                <a class="button" href="products.html">View Our Products</a>
+                <div class="hero-actions">
+                    <a class="button" href="products.html">Explore the bake</a>
+                    <a class="text-link" href="about.html">Our story <span aria-hidden="true">↗</span></a>
+                </div>
             </div>
         </section>
 
-        <section class="content-section">
-            <h2>Freshly Baked for Every Occasion</h2>
-            <p>Whether you need something for breakfast, a family gathering or a special celebration, Sweet Rise Bakery has something for you.</p>
+        <section class="home-intro content-section">
+            <div class="section-heading">
+                <p class="eyebrow">Made for the moment</p>
+                <h2>Freshly baked for every kind of day.</h2>
+            </div>
+            <p class="section-lede">Whether you need something for breakfast, a family gathering or a special celebration, there is always something lovely waiting at Sweet Rise.</p>
             <div class="info-grid">
                 <article class="info-card">
+                    <span class="card-number">01</span>
                     <h3>Fresh Products</h3>
                     <p>We offer breads, buns, rolls, cakes, pastries and confectionery.</p>
+                    <a href="products.html" aria-label="Explore fresh products">Discover <span aria-hidden="true">↗</span></a>
                 </article>
                 <article class="info-card">
+                    <span class="card-number">02</span>
                     <h3>Special Occasions</h3>
                     <p>Our products can be enjoyed for birthdays, family events and other celebrations.</p>
+                    <a href="enquiry.html" aria-label="Make a special occasion enquiry">Plan something sweet <span aria-hidden="true">↗</span></a>
                 </article>
                 <article class="info-card">
+                    <span class="card-number">03</span>
                     <h3>Friendly Service</h3>
                     <p>Customers can contact us with questions, product enquiries and cake requests.</p>
+                    <a href="contact.html" aria-label="Contact Sweet Rise Bakery">Say hello <span aria-hidden="true">↗</span></a>
                 </article>
+            </div>
+        </section>
+
+        <section class="bake-showcase" aria-label="A taste of our bakery">
+            <div class="showcase-copy">
+                <p class="eyebrow">A taste of Sweet Rise</p>
+                <h2>Good things take time. These take butter.</h2>
+                <p>From the first golden loaf to the last celebration cake, every bake is made to turn an ordinary moment into one worth lingering over.</p>
+                <a class="text-link" href="products.html">See the full menu <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="showcase-images">
+                <figure class="showcase-photo showcase-photo-tall">
+                    <img src="images/Gallery/pastries.jpg" alt="Fresh golden pastries">
+                    <figcaption>Golden pastries</figcaption>
+                </figure>
+                <figure class="showcase-photo showcase-photo-small">
+                    <img src="images/Gallery/cakes.jpg" alt="Decorated bakery cakes">
+                    <figcaption>Made to celebrate</figcaption>
+                </figure>
             </div>
         </section>
     </main>
