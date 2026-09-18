@@ -17,8 +17,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #213d1f;
-    background-color: #fffaf5;
+    color: #30463b;
+    background-color: #fbf8e9;
 }
 
 img {
@@ -31,9 +31,11 @@ a {
     color: #77167a;
 }
 
-a:hover {
-    color: #1e94c6;
+a {
+    color: #4f765b;
 }
+a:hover {
+   color:   #d5785f;
 
 .container {
     width: 90%;
@@ -43,8 +45,8 @@ a:hover {
 
 /* Header and navigation */
 .site-header {
-    background-color: #ffffff;
-    border-bottom: 1px solid #e6d3c4;
+    background-color: #fffdf4;
+    border-bottom: 1px solid #d7e4c7;
 }
 
 .site-header .container {
@@ -55,8 +57,8 @@ a:hover {
 }
 
 .logo {
-    width: 90px;
-    height: 90px;
+    width: 600px;
+    height: 600px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -71,7 +73,7 @@ a:hover {
 }
 
 .main-nav {
-    background-color: #6b2666;
+    background-color: #4f765b;
 }
 
 .main-nav ul {
@@ -93,11 +95,11 @@ a:hover {
     border-radius: 4px;
 }
 
-.main-nav a:hover,
+.main-nav a:hover
 .main-nav a:focus,
 .main-nav a.active {
-    background-color: #58c8d9;
-    color: #2e1024;
+    background-color: #f2c866;
+    color: #30463b;
 }
 
 .main-nav a:active {
@@ -130,7 +132,7 @@ main {
 .hero-text h2,
 .content-section h2,
 .page-banner h2 {
-    color: #265b6b;
+    color: #4f765b;
     line-height: 1.2;
 }
 
@@ -144,7 +146,7 @@ main {
     max-width: 1100px;
     margin: 35px auto;
     padding: 25px;
-    background-color: #fff;
+    background-color: #fffdf4;
     border-radius: 10px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
 }
@@ -169,8 +171,8 @@ main {
 
 .info-card,
 .product-card {
-    background-color: #fff;
-    border: 1px solid #ead8cb;
+    background-color: #fffdf4;
+    border: 1px solid #d7e4c7;
     border-radius: 10px;
     padding: 20px;
 }
@@ -183,7 +185,7 @@ main {
 
 .info-card h3,
 .product-card h3 {
-    color: #166b7a;
+    color: #4f765b;
 }
 
 .button {
@@ -202,8 +204,8 @@ main {
 
 .button:hover,
 .button:focus {
-    background-color: #58d3d9;
-    color: #2d102e;
+    background-color: #f2c866;
+    color: #30463b;
 }
 
 .button:active {
@@ -315,7 +317,7 @@ textarea {
     margin-top: 50px;
     padding: 25px 0;
     text-align: center;
-    background-color: #26686b;
+    background-color: #4f765b;
     color: #fff;
 }
 
